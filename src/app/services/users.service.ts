@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class UsersService {
   
-  private apiUrl: string = 'https://nodejs-users-2.vercel.app/users';
+  private apiUrl: string = 'https://patelkashyap-nodejs-users-2.vercel.app/users';
   
   constructor(private http: HttpClient) { }
   
