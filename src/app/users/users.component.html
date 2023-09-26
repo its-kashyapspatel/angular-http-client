@@ -1,5 +1,10 @@
-<ul>
-  <li *ngFor="let user of users">
-    {{ user.name }} ({{ user.email }})
-  </li>
-</ul>
+<div>
+  <div *ngFor="let user of users">
+    <div class="user-details">
+      <p>{user._id}</p>
+      <p>{user.name}</p>
+      <p>{user.email}</p>
+      <p>{user.phone}</p>
+    </div>
+  </div>
+</div>
