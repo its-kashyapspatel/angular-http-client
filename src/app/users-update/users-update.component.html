@@ -1,0 +1,19 @@
+<form (submit)="updateUser()">
+  <div>
+    <label for="userId">User ID:</label>
+    <input type="text" id="userId" name="userId" [(ngModel)]="selectedUserId" required>
+  </div>
+  <div>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" [(ngModel)]="updatedUser.name" required>
+  </div>
+  <div>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" [(ngModel)]="updatedUser.email" required>
+  </div>
+  <div>
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone" [(ngModel)]="updatedUser.phone" required>
+  </div>
+  <button type="submit">Update User</button>
+</form>

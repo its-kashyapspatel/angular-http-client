@@ -1,0 +1,12 @@
+h1 {
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+a {
+  margin: 20px;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
